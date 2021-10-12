@@ -1,3 +1,7 @@
+* {
+    font-size: 100%;
+    font-family: "Open Sans", sans-serif;
+   }
 html{
     padding: 0px;
     margin: 0px;
@@ -17,7 +21,7 @@ body{
     background-color:#1f2937;
     display:flex;
     justify-content: space-between;
-    color: white;
+    color: #f9faf8;
     align-items:center;
     font-size: 24px;
     padding:0px 300px;
@@ -30,35 +34,58 @@ body{
  }
 
  .header a{
-     color:white;
+     color:#e5e7eb;
      text-decoration:none;
-     font-size:15px;
+     font-size:18px;
      margin: 0px 20px;
  }
  .top-signup{
      display:flex;
      flex:1;
      background-color:#1f2937;
-     height: 400px;
-     padding:0px 300px;
+     height: 500px;
+     padding:100px 300px;
      align-items: center;
      justify-content: space-between;
- }
-
- .text-content{
-     width:400px;
- }
- .image-holder{
-     width:400px;
-     background-color: #6d747d;
  }
 
  .top-signup h1{
      color: #f9faf8;
      font-size: 48px;
      font-weight: bold;
+     margin-block-start:0px;
+    margin-block-end: 0px;
      
  }
+
+ .text-content{
+     width:550px;
+     color:#e5e7eb;
+     display: flex;
+     flex-direction:column;
+
+ }
+
+ .button{
+     background-color: #3b82f6;
+     color:white;
+     border:none;
+     border-radius:8px;
+     padding:5px 16px;
+     font-weight:600;
+     align-self:flex-start;
+ }
+ .image-holder{
+     width:400px;
+     background-color: #6d747d;
+     height: 250px;
+     flex:1;
+     margin-left:40px;
+     display:flex;
+     justify-content: center;
+     align-items:center;
+ }
+
 
  .text-content{
      display:flex;
@@ -67,7 +94,18 @@ body{
 
 .middle-content{
     display:flex;
-    height: 300px;
+    height: 100%;
+    padding:0px 300px;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom:40px;
+    flex:1;
+}
+
+.middle-content h2{
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .illustration-holder{
@@ -75,19 +113,35 @@ body{
 }
 .illustration{
     display:flex;
+    flex-direction: column;
+    width:200px;
+    
+}
+
+.illustration-img{
+    width:150px;
+    height:150px;
+    border-radius: 8px;
+    border-color: #5f99f7;
+    border-width: 3px;
+    border-style: solid;
 }
 
 .bottom-content{
     display:flex;
     height: 250px;
+    padding:0px 300px;
+    background-color: #e5e7eb;
 }
 
  .bottom-signup{
     display:flex;
     height: 200px;
+    padding:0px 300px;
 }
 .signup-info{
     display:flex;
+    
 }
 .footer{
     display:flex;
