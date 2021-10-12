@@ -115,24 +115,42 @@ body{
     display:flex;
     flex-direction: column;
     width:200px;
+    align-items:center;
+    margin:0px 40px;
     
+}
+.illustration p{
+    text-align:center;
 }
 
 .illustration-img{
-    width:150px;
-    height:150px;
-    border-radius: 8px;
+    width:200px;
+    height:200px;
+    border-radius: 9px;
     border-color: #5f99f7;
-    border-width: 3px;
+    border-width: 4px;
     border-style: solid;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    
 }
 
 .bottom-content{
     display:flex;
     height: 250px;
-    padding:0px 300px;
+    padding:50px 450px;
     background-color: #e5e7eb;
+    display:flex;
+    flex-direction: column;
 }
+
+.bottom-content p{
+    font-size: 36px;
+    font-style:italic;
+    color: #1f2937;
+}
+
 
  .bottom-signup{
     display:flex;
