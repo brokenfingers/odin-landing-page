@@ -1,13 +1,16 @@
 html{
     padding: 0px;
     margin: 0px;
+    
 }
 body{
     padding: 0px;
     margin: 0px;
     display:flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-between;
+    height: 100vh;
+    
 }
 .header{
     height:50px;
@@ -17,7 +20,7 @@ body{
     color: white;
     align-items:center;
     font-size: 24px;
-    padding-left:20px;
+    padding:0px 300px;
 }
  .header ul{
      display: flex;
@@ -34,14 +37,37 @@ body{
  }
  .top-signup{
      display:flex;
+     flex:1;
+     background-color:#1f2937;
+     height: 400px;
+     padding:0px 300px;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .text-content{
+     width:400px;
+ }
+ .image-holder{
+     width:400px;
+     background-color: #6d747d;
+ }
+
+ .top-signup h1{
+     color: #f9faf8;
+     font-size: 48px;
+     font-weight: bold;
+     
  }
 
  .text-content{
      display:flex;
+     flex-direction:column;
  }
 
 .middle-content{
     display:flex;
+    height: 300px;
 }
 
 .illustration-holder{
@@ -53,10 +79,12 @@ body{
 
 .bottom-content{
     display:flex;
+    height: 250px;
 }
 
  .bottom-signup{
     display:flex;
+    height: 200px;
 }
 .signup-info{
     display:flex;
@@ -65,4 +93,5 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
+    height:50px;
 }
