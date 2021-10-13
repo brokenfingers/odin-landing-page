@@ -109,10 +109,12 @@ body{
     color:#1f2937;
     font-size: 36px;
     font-weight: 900;
+    padding-top:30px;
 }
 
 .illustration-holder{
     display:flex;
+    padding-bottom:50px;
 }
 .illustration{
     display:flex;
