@@ -94,7 +94,7 @@ body{
 
 .middle-content{
     display:flex;
-    height: 100%;
+    
     padding:0px 300px;
     flex-direction: column;
     align-items:center;
@@ -138,19 +138,24 @@ body{
 
 .bottom-content{
     display:flex;
-    height: 250px;
+   
     padding:50px 450px;
     background-color: #e5e7eb;
     display:flex;
     flex-direction: column;
+    flex:1;
 }
 
 .bottom-content p{
     font-size: 36px;
     font-style:italic;
     color: #1f2937;
+    font-weight: 100;
 }
-
+.bottom-content p:nth-child(2){
+    align-self: flex-end;
+    font-weight: 800;
+}
 
  .bottom-signup{
     display:flex;
@@ -166,4 +171,6 @@ body{
     justify-content:center;
     align-items:center;
     height:50px;
+    color:white;
+    background-color:#1f2937;
 }
