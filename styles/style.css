@@ -87,6 +87,10 @@ body{
      display:flex;
      justify-content: center;
      align-items:center;
+     overflow: hidden;
+ }
+ .image-holder img{
+     
  }
 
 
@@ -138,7 +142,13 @@ body{
     display: flex;
     justify-content:center;
     align-items:center;
-    
+    overflow: hidden;
+}
+
+.illustration-img img{
+   width:400px;
+   height: auto;
+   
 }
 
 .bottom-content{
